@@ -1,0 +1,110 @@
+body{
+    background: rgb(167, 251, 225);
+    font-size: 20px;
+    background-image: url("bg1.jpeg");
+    background-position: right 15%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.gradient-right-style{
+    float: left;
+    height: 200px;
+    width: 40%;
+    background-image: linear-gradient(to right, red, blue, white, black, yellow, green);
+}
+.gradient-circle-style{
+    float: right;
+    height: 200px;
+    width: 40%;
+    background-image: radial-gradient(circle, red, blue, white, black, yellow, green);
+}
+.gradient-spacing-style{
+    clear: both;
+}
+.gradient-text-style{
+    background-color: azure;
+}
+
+}
+
+.ul-list:nth-child(odd){
+    background: red;
+    color: black;
+}
+.first-letter::first-child{
+    color: red;
+    font-size: 2.5rem;
+}
+.first-letter{
+    background-image: url("bg1.jpeg");
+    background-position: right 15%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+::selection{
+    color: white;
+    background: black;
+}
+
+.e1{
+    max-width: 900px;
+    margin: auto;
+    border: 3px solid green;    
+}
+.hover-link:hover{
+    color: red;
+}
+
+.name-input:hover{
+    background-color: red;
+}
+.email-input:focus{
+    background-color: red;
+}
+
+details[open] > summary{
+    background-color: rgb(246, 70, 6);
+}
+img{
+    max-width: 90%;
+}
+table{
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+}
+td, th{
+    border: 2px solid red;
+}
+ul{
+    /* list-style: circle; */
+    /* list-style: square; */
+    /* list-style: disc; */
+    list-style: none;
+    font-size: 15px;
+    font-style: oblique;
+}
+ol{
+    font-style: italic;
+}
+h1,
+span,
+strong{
+    border: 1px solid red;
+}
+img{
+    max-width: 50%;
+}
+iframe{
+    border: 0;
+    
+}
+
+
+
+
+
+
+
+
+
+
